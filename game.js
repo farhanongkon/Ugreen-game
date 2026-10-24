@@ -45,7 +45,7 @@
   const sprite = new Image();
   let spriteReady = false;
   sprite.onload = () => { spriteReady = true; };
-  sprite.src = 'assets/ugreen-robot-charger.png';
+  sprite.src = 'ugreen-robot-charger.png';
 
   // ---------- State ----------
   let W = 0, H = 0, S = 1, dpr = 1;
